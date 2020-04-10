@@ -1,0 +1,18 @@
+<div>
+  <table style="margin: 20px;">
+    <tr>
+      <td colspan="2">
+        {{ counter$ | async }}
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <button (click)="increment()" class="btn btn-primary" >Increment</button>
+      </td>
+      <td>
+        <button (click)="decrement()" class="btn btn-warning" style="margin: 5px;">Decrement</button>
+      </td>
+    </tr>
+  </table>
+
+</div>
